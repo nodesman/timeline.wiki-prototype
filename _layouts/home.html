@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="{{ '/stylesheets/main.css' | relative_url }}" />
+</head>
+<body>
+<div class="content">
+    {% include header.html %}
+    {% include searchbar.html %}
+    <div class="body">
+        {{content}}
+    </div>
+</div>
+</body>
+</html>

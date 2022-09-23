@@ -1,0 +1,61 @@
+@import "variables";
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-size: 10px;
+  font-family: Verdana, serif;
+}
+
+.logo {
+  text-align: center;
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Helvetica;
+    margin-bottom: 0;
+  }
+  p {
+  }
+}
+
+header {
+  .ribbon {
+    background-color: #302e34;
+    padding: 10px 5px;
+    .ribbon-content {
+      width: $width-of-content-area;
+      margin: 0 auto;
+      a {
+        color: #fff;
+        display: inline-block;
+        padding: 5px 10px;
+        border-right: 1px solid #eee;
+        &:last-of-type {
+          border-right: 0;
+        }
+      }
+    }
+  }
+}
+
+nav.search-bar {
+  background-color: rgb(238, 239, 233);
+  border: 1px solid #888;
+  padding: 5px;
+
+  .input-field {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 40px;
+    width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    .home {
+      height: 30px;
+      background-color: #555;
+      width: 50px;
+      margin: 5px;
+    }
+  }
+}
